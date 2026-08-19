@@ -28,7 +28,7 @@ class Character:
         print(f"{self.name} learned a new ability: {ability_name}!")
 
     def take_damage(self, damage_amount):
-        # Subtracts health, but armor blocks some of the damage first!"""
+        # Subtracts health, but armor blocks some of the damage first!
         actual_damage = damage_amount
         
         # If the character has armor, reduce the incoming damage
@@ -47,11 +47,11 @@ class Character:
         print(f"{self.name} takes {actual_damage} damage! ({self.hp}/{self.max_hp} HP remaining)")
 
     def is_alive(self):
-        # Returns True if the character still has health."""
+        # Returns True if the character still has health.
         return self.hp > 0
 
     def attack(self, target):
-        # Attacks the target using base attack PLUS weapon damage."""
+        # Attacks the target using base attack PLUS weapon damage.
         total_attack = self.base_attack
         
         # Add weapon damage if they are holding one

@@ -1,11 +1,12 @@
 import sys
 
 # the other files from project
-#import character
-#import healer
-#import tank
+import enemy
+import character
+import healer
+import tank
 #import colesium
-#import duelist
+import duelist
 
 def display_menu():
     # Displays the main menu options to the player
